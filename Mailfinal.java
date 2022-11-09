@@ -1,15 +1,9 @@
 // Add the package name of your project here
-import java.io.File;
-import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.Base64;
-import java.util.List;
-import java.util.Scanner;
 
+import java.util.ArrayList;
 import com.azure.communication.email.*;
 import com.azure.communication.email.models.*;
 import com.azure.core.credential.AzureKeyCredential;
-import reactor.core.*;
 
 public class Mailfinal {
     public static void main( String[] args ) {
