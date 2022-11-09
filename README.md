@@ -40,7 +40,22 @@
 
 ### Creating Azure Communication Service Resource.
 
-1. Go to <a href = "https://portal.azure.com/"> Azure Portal </a>.
+1. Go to <a href = "https://portal.azure.com/"> Azure Portal </a> and search for "Communication Services" and select it.
+
+![image](https://user-images.githubusercontent.com/116783776/200759178-d0a78bca-f02d-412f-8d13-268facb31642.png)
+
+2. Click on "Create", select the "Subscription", "Resource Group", "Resource Name" and the "Data Location".
+
+![image](https://user-images.githubusercontent.com/116783776/200759708-da1c9099-9552-414a-bc15-ebe16bd30db0.png)
+
+3. After creating the resource, go to "Keys" under "Settings" and keep note of the "Endpoint", "Connection string", and "Key".
+
+![image](https://user-images.githubusercontent.com/116783776/200760257-7493e9ac-fc27-481f-a4ec-0992137ceead.png)
+
+![image](https://user-images.githubusercontent.com/116783776/200760360-a2f91a4f-e574-4cb2-9502-c3c346fdaf7c.png)
+
+
+
 
 
 
