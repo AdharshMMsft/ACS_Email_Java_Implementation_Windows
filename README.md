@@ -44,18 +44,42 @@
 
 ![image](https://user-images.githubusercontent.com/116783776/200759178-d0a78bca-f02d-412f-8d13-268facb31642.png)
 
-2. Click on "Create", select the "Subscription", "Resource Group", "Resource Name" and the "Data Location".
+2. Click on "Create", select the "Subscription", "Resource Group", "Resource Name" and the "Data Location", then click "Review + Create".
 
 ![image](https://user-images.githubusercontent.com/116783776/200759708-da1c9099-9552-414a-bc15-ebe16bd30db0.png)
 
-3. After creating the resource, go to "Keys" under "Settings" and keep note of the "Endpoint", "Connection string", and "Key".
+3. After creating, go to the resource and then go to "Keys" under "Settings" and keep note of the "Endpoint", "Connection string", and "Key".
 
 ![image](https://user-images.githubusercontent.com/116783776/200760257-7493e9ac-fc27-481f-a4ec-0992137ceead.png)
 
 ![image](https://user-images.githubusercontent.com/116783776/200760360-a2f91a4f-e574-4cb2-9502-c3c346fdaf7c.png)
 
 
+### Creating Email Communication Services
 
+1. Go to <a href = "https://portal.azure.com/"> Azure Portal </a> and search for "Email Communication Services" and select it.
+
+![image](https://user-images.githubusercontent.com/116783776/200763427-b0beb384-43b2-473e-ab42-ac89229196d5.png)
+
+2. Click on "Create", select the "Subscription", "Resource Group", "Resource Name", "Region" and the "Data Location", then click "Review + Create".
+
+![image](https://user-images.githubusercontent.com/116783776/200763988-e4d2aa16-8427-4331-be01-c54e1533eb96.png)
+
+3. After creating, go to the resource and then go to "Provision Domains" under "Settings".
+
+![image](https://user-images.githubusercontent.com/116783776/200765147-34e0a481-39d3-446c-8fd6-7acf225fd93e.png)
+
+4. Click on "Add domain" and choose the domain setup according to preference.
+
+![image](https://user-images.githubusercontent.com/116783776/200765339-2f2c4907-6ba8-46cc-a4df-0721af996c94.png)
+
+5. Now go back to the Communication Service that was created. Under "Email", click on "Domains".
+
+![image](https://user-images.githubusercontent.com/116783776/200765667-4d4e86f8-1585-4430-a2ed-503953a53e59.png)
+
+6. Now click on "Connect Domain", and select the domain which was set on the Email Communication Service.
+
+![image](https://user-images.githubusercontent.com/116783776/200766247-3eef358d-8b54-41a8-a809-309f47d06c7a.png)
 
 
 
