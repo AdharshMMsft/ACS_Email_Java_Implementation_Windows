@@ -81,5 +81,12 @@
 
 ![image](https://user-images.githubusercontent.com/116783776/200766247-3eef358d-8b54-41a8-a809-309f47d06c7a.png)
 
+### Creating a Java Project
+
+1. Go to the Command Prompt, and type the following Maven command: _mvn archetype:generate "-DgroupId=com.projectname" "-DartifactId=projectname" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DarchetypeVersion=1.8" "-DinteractiveMode=false"_ and press enter.
+
+![image](https://user-images.githubusercontent.com/116783776/200783893-426f8b94-5c6d-466b-a269-146a46d33cdd.png)
+
+2. Now open the project on the IDE, and open the file "pom.xml". Now copy the contents of "pom.xml" in the repository to that in the project folder.
 
 
