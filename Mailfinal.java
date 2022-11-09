@@ -10,7 +10,6 @@ public class Mailfinal {
         String connectionString = "<ENTER THE CONNECTION STRING FROM THE COMMUNICATION SERVICE RESOURCE>";
 
         EmailClient emailClient = new EmailClientBuilder().connectionString(connectionString).buildClient();
-        //System.out.println("Hello");
         AzureKeyCredential azureKeyCredential = new AzureKeyCredential("<ENTER THE CORRESPONDING KEY OF THE CONNECTION STRING>");
 
         EmailAddress  emailAddress = new EmailAddress("<ENTER THE INTENDED RECIPIENT EMAIL ID>");
