@@ -89,4 +89,4 @@
 
 2. Now open the project on the IDE, and open the file "pom.xml". Now copy the contents of "pom.xml" in the repository to that in the project folder.
 
-
+3. Now open the java file (in _"src\main\java\com\communication\quickstart\App.java"_) 
