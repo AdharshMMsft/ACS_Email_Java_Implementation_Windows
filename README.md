@@ -40,5 +40,7 @@
 
 ### Creating Azure Communication Service Resource.
 
+1. Go to <a href = "portal.azure.com"> Azure Portal </a>.
+
 
 
