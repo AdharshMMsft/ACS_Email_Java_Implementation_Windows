@@ -97,6 +97,6 @@ WARNING: Before proceeding further, make sure the values for connection string, 
 
 1. Run the below commands on the terminal serially (make sure the terminal path is your project's path).
 
-  mvn compile
-  mvn package
-  mvn exec:java -Dexec.mainClass="com.communication.quickstart.App" -Dexec.cleanupDaemonThreads=false
+  1) mvn compile
+  2) mvn package
+  3) mvn exec:java -Dexec.mainClass="com.communication.quickstart.App" -Dexec.cleanupDaemonThreads=false
