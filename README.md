@@ -83,12 +83,20 @@
 
 ### Creating a Java Project
 
-1. Go to the Command Prompt, and type the following Maven command: _mvn archetype:generate "-DgroupId=com.projectname" "-DartifactId=projectname" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DarchetypeVersion=1.8" "-DinteractiveMode=false"_ and press enter.
+1. Go to the Command Prompt, and type the following Maven command: _mvn archetype:generate "-DgroupId=com.projectname" "-DartifactId=projectname" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DarchetypeVersion=1.4" "-DinteractiveMode=false"_ and press enter.
 
 ![image](https://user-images.githubusercontent.com/116783776/200783893-426f8b94-5c6d-466b-a269-146a46d33cdd.png)
 
-2. Now open the project on the IDE, and open the file "pom.xml". Now copy the contents of "pom.xml" in the repository to that in the project folder.
+2. Now open the maven project you have created on the IDE, and open the file "pom.xml" in it. Now copy the contents of "pom.xml" in the repository to that in the project folder.
 
 3. Now open the java file (in _"src\main\java\com\yourprojectname\yourprojectname\App.java"_) and copy the contents of the java file in the repository to the java file in the project.
 
-4. Build the project and run.
+WARNING: Before proceeding further, make sure the values for connection string, key, sender email, receiver email, subject and content. Without them it would lead to build errors. 
+
+### Building and running the project. 
+
+1. Run the below commands on the terminal serially (make sure the terminal path is your project's path).
+
+  mvn compile
+  mvn package
+  mvn exec:java -Dexec.mainClass="com.communication.quickstart.App" -Dexec.cleanupDaemonThreads=false
