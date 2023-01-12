@@ -95,7 +95,7 @@ WARNING: Before proceeding further, make sure the values for connection string, 
 
 ### Building and running the project. 
 
-1. Run the below commands on the terminal serially (make sure the terminal path is your project's path).
+1. Run the below commands on the terminal (command prompt / powershell in windows) serially (make sure the terminal path is your project's path).
 
   1) mvn compile
   2) mvn package
