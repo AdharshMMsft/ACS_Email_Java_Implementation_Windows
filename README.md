@@ -97,7 +97,8 @@ WARNING: Before proceeding further, make sure the values for connection string, 
 
 1. Run the below commands on the terminal (command prompt / powershell in windows) serially (make sure the terminal path is your project's path).
 
-  1) mvn compile
-  2) mvn package
-  3) mvn exec:java -Dexec.mainClass="com.communication.quickstart.App" -Dexec.cleanupDaemonThreads=false
+  mvn compile && mvn package && mvn exec:java -Dexec.mainClass="com.communication.quickstart.App" -Dexec.cleanupDaemonThreads=false
+
+
+NOTE:-
 // Make sure you change the package name in "-Dexec.mainClass = "change name here.App".
