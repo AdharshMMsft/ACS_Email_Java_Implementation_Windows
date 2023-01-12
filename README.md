@@ -95,7 +95,7 @@ WARNING: Before proceeding further, make sure the values for connection string, 
 
 ### Building and running the project. 
 
-1. Run the below commands on the terminal (command prompt / powershell in windows) serially (make sure the terminal path is your project's path).
+1. Run the below commands on the terminal (command prompt / powershell in windows) (make sure the terminal path is your project's path).
 
   mvn compile && mvn package && mvn exec:java -Dexec.mainClass="com.communication.quickstart.App" -Dexec.cleanupDaemonThreads=false
 
