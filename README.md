@@ -100,3 +100,4 @@ WARNING: Before proceeding further, make sure the values for connection string, 
   1) mvn compile
   2) mvn package
   3) mvn exec:java -Dexec.mainClass="com.communication.quickstart.App" -Dexec.cleanupDaemonThreads=false
+// Make sure you change the package name in "-Dexec.mainClass = "change name here.App".
